@@ -1,6 +1,6 @@
 # Markdown Editor
 
-A simple Markdown editor that allows users to format text some various tools.
+A simple Markdown editor that allows users to format text with some tools.
 
 ![Screenshot](IMG_20241116_091254.jpg)
 
