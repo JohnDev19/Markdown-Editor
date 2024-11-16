@@ -61,6 +61,7 @@ body {
   flex-wrap: wrap;
   max-width: 1400px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .toolbar-group {
@@ -254,6 +255,28 @@ body {
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .editor-container,
+  .preview-container {
+    height: 50vh;
+    min-height: 200px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .editor-container, 
+  .toolbar,
+  .preview-container {
+    min-width: 660px;
+  }
+}
+
 .footer {
   background-color: var(--background-color);
   border-top: 1px solid var(--border-color);
@@ -362,18 +385,6 @@ body {
 
 .dark-mode .toolbar-group {
   background-color: var(--dark-background);
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .editor-container,
-  .preview-container {
-    height: 50vh;
-  }
 }
 
 .notification {
