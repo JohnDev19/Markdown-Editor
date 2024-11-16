@@ -2,7 +2,7 @@
 
 A simple Markdown editor that allows users to format text some various tools.
 
-![Screenshot](jsjs)
+![Screenshot](IMG_20241116_091254.jpg)
 
 ## Features
 
