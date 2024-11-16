@@ -367,6 +367,38 @@ body {
   justify-content: space-between;
 }
 
+#editor::-webkit-scrollbar,
+#preview::-webkit-scrollbar {
+  width: 3px;
+}
+
+#editor::-webkit-scrollbar-track,
+#preview::-webkit-scrollbar-track {
+  background: var(--primary-color);
+  border-radius: 6px;
+}
+
+#editor::-webkit-scrollbar-thumb,
+#preview::-webkit-scrollbar-thumb {
+  background: var(--primary-color));
+  border-radius: 6px;
+}
+
+#editor::-webkit-scrollbar-thumb:hover,
+#preview::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-hover));
+}
+
+#editor {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color)) var(--primary-hover);
+}
+
+#preview {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+}
+
 /* Dark mode */
 .dark-mode {
   background-color: var(--dark-background);
