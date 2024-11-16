@@ -272,11 +272,57 @@ body {
   }
 }
 
+/* Medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 1249px) {
+  .editor-container, 
+  .toolbar,
+  .preview-container {
+    min-width: 500px;
+  }
+  
+  .header,
+  .toolbar,
+  .footer {
+    min-width: 100%;
+  }
+}
+
+/* Larger screens (desktops) */
 @media (min-width: 1250px) {
   .editor-container, 
   .toolbar,
   .preview-container {
     min-width: 660px;
+  }
+  
+  .header,
+  .toolbar,
+  .footer {
+    min-width: 100%;
+  }
+}
+
+/* Extra large screens (large desktops, large monitors) */
+@media (min-width: 1600px) {
+  .editor-container, 
+  .toolbar,
+  .preview-container {
+    min-width: 800px;
+  }
+  
+  .header,
+  .toolbar,
+  .footer {
+    min-width: 100%;
+  }
+}
+
+/* Ultra large screens (very large displays) */
+@media (min-width: 1920px) {
+  .editor-container, 
+  .toolbar,
+  .preview-container {
+    min-width: 1000px;
   }
   
   .header,
